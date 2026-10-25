@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+bin/
+obj/
+.vs/
+*.user
+# saidas de calculo e documentos de projeto (dados de clientes) nao entram no repositorio
+*.rtd
+*.rvt
+*.dwg
+*.docx
+*.pdf
+*.sm
+*.csv

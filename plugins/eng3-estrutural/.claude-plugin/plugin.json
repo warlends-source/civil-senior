@@ -1,0 +1,26 @@
+{
+  "name": "eng3-estrutural",
+  "displayName": "ENG3 — Engenharia Estrutural",
+  "version": "0.1.1",
+  "description": "Skills de engenharia estrutural para memoriais de cálculo auditáveis, base técnica de normas e critérios, automação Revit/BIM e tratamento de outputs de CYPE/TQS/Eberick e sondagens SPT",
+  "author": {
+    "name": "Warlen Dornelas de Souza",
+    "email": "warlen.ds@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "engenharia-estrutural",
+    "fundacoes",
+    "memorial-de-calculo",
+    "abnt",
+    "nbr",
+    "revit",
+    "bim",
+    "cype",
+    "tqs",
+    "spt",
+    "robot",
+    "civilconnection"
+  ],
+  "skills": "./skills/"
+}
