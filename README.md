@@ -44,5 +44,12 @@ envie na área de plugins do claude.ai.
 - .NET 10 SDK para compilar os testes em C# de `scripts/civilconnection`. Os `.csproj` apontam para o código do
   CivilConnection 2027 numa pasta local; ajuste o caminho do `Compile Include` para a sua cópia.
 
+## CivilConnection 2027
+O pacote do Dynamo e o plugin CivilPython que ligam Civil 3D, Revit e Robot 2027 ficam no fork
+[warlends-source/civilconnection](https://github.com/warlends-source/civilconnection) (Apache 2.0). Pacotes prontos na
+[release v7.0.0-2027](https://github.com/warlends-source/civilconnection/releases/tag/v7.0.0-2027):
+`CivilConnection2027-Dynamo-Revit-4.1.zip` (extrair em `%AppData%\Dynamo\Dynamo Revit\4.1\packages\`) e
+`CivilPython-2027.bundle.zip` (extrair em `%AppData%\Autodesk\ApplicationPlugins\`).
+
 ## Licença
 [MIT](LICENSE). O CivilConnection original é da Autodesk, sob Apache 2.0, e não está incluído aqui.

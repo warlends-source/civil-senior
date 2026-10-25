@@ -16,7 +16,9 @@ para o Robot.
 ## Instalação
 
 Requisitos: Windows, .NET 10 (runtime), os programas na versão 2027. Para as linhas de feição de corredor e as malhas de
-superfície, o plugin **CivilPython** do CivilConnection 2027 instalado em `%APPDATA%\Autodesk\ApplicationPlugins`.
+superfície, o plugin **CivilPython** do CivilConnection 2027: baixe `CivilPython-2027.bundle.zip` da
+[release v7.0.0-2027](https://github.com/warlends-source/civilconnection/releases/tag/v7.0.0-2027) e extraia em
+`%APPDATA%\Autodesk\ApplicationPlugins`.
 
 ```powershell
 dotnet publish mcp\AutoCad\CivilSenior.Mcp.AutoCad.csproj -c Release -o "$env:LOCALAPPDATA\CivilSenior\mcp\autocad"
