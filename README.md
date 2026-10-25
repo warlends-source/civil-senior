@@ -11,6 +11,7 @@ Agente de apoio ao projeto estrutural para o Claude, com foco em normas brasilei
 | Pasta | O que é |
 |---|---|
 | [`skills/estruturas-br`](skills/estruturas-br) | Skill do Claude: verificações NBR 6118/6122/8800 em Python, extração de esforços do Robot (barras e cascas), geração de memoriais em SMath (`.sm`, fórmulas vivas) e Word (OMML), mapas MEF, e a ponte Civil 3D/Revit → Robot pelo CivilConnection 2027 |
+| [`mcp`](mcp) | Servidores MCP `civilsenior-autocad` (AutoCAD/Civil 3D 2027) e `civilsenior-robot` (Robot 2027): o Claude desenha, lê alinhamentos, superfícies e corredores, monta e calcula modelos no Robot e confere o equilíbrio |
 | [`plugins/eng3-estrutural`](plugins/eng3-estrutural) | Plugin do Claude **ENG3 — Engenharia Estrutural**: memorial de cálculo auditável, base técnica de normas e critérios, automação Revit/BIM pelo MCP do Revit e leitura de saídas de CYPE/TQS/Eberick e sondagens SPT |
 
 ### Destaques da skill `estruturas-br`

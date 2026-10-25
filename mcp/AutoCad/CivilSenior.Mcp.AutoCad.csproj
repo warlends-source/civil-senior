@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- MCP server for AutoCAD / Civil 3D 2027 (COM, late bound: no Autodesk assemblies needed to build) -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>civilsenior-autocad</AssemblyName>
+    <RootNamespace>CivilSenior.Mcp.AutoCad</RootNamespace>
+    <NoWarn>$(NoWarn);CA1416</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Shared\*.cs" />
+    <PackageReference Include="ModelContextProtocol" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.14" />
+  </ItemGroup>
+</Project>
