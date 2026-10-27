@@ -29,6 +29,7 @@ Skill de apoio ao engenheiro estrutural. **O calculo e uma ajuda; a responsabili
 - **Revit 2027:** via Dynamo/API ou pelo MCP do Revit (`send_code_to_revit`, socket 127.0.0.1:8080, JSON terminado em `\n`; cliente em `scripts/civilconnection/revit_mcp/rpc.py`). Revit -> Robot: `CreateRevitAnalyticalModel` (so em copia do `.rvt`) -> `FromRevitAnalytical` -> `SplitBarsAtNodes` -> `AssignSupportToColumnBases`. Devolver resultados como parametros so com confirmacao.
 - **Robot, licoes da API 2027:** `CalcGamma` devolve radianos e `Gamma` recebe graus; `Calculate()` via COM funciona a partir de thread STA do .NET; conferir sempre Σ reacoes x peso (`scripts/civilconnection/robot_peso_proprio`).
 - **XC (xcfem, GPL-3.0):** MEF de codigo aberto com interface Python, clonado em `Ferramentas\xc` como referencia de implementacao de normas; nucleo C++ nao compilado (exige WSL) e modulo NBR 6118 em rascunho, sem teste. Ver `references/xc.md` e `references/xc_nbr6118_esboco.md`. Nao misturar codigo do XC (GPL) em codigo MIT.
+- **Autocad-Civil3d-Tools (shtirlitsDva, GPL-3.0):** ~440 comandos .NET para AutoCAD/Civil 3D 2025 (foco em aquecimento distrital dinamarques; partes genericas: perfis e vistas em lote, recobrimento, volumes de escavacao, folhas, lote). Clonado em `Ferramentas/Autocad-Civil3d-Tools` como referencia; nao compilado para 2027. Ver `references/autocad_civil3d_tools.md`.
 
 ## Entrega ao usuario
 Resumo curto + tabela de utilizacao (esforco / resistencia) + lista de premissas e itens nao verificados + caminho do `.sm` gerado.
