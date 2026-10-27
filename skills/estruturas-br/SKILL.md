@@ -30,6 +30,7 @@ Skill de apoio ao engenheiro estrutural. **O calculo e uma ajuda; a responsabili
 - **Robot, licoes da API 2027:** `CalcGamma` devolve radianos e `Gamma` recebe graus; `Calculate()` via COM funciona a partir de thread STA do .NET; conferir sempre Σ reacoes x peso (`scripts/civilconnection/robot_peso_proprio`).
 - **XC (xcfem, GPL-3.0):** MEF de codigo aberto com interface Python, clonado em `Ferramentas\xc` como referencia de implementacao de normas; nucleo C++ nao compilado (exige WSL) e modulo NBR 6118 em rascunho, sem teste. Ver `references/xc.md` e `references/xc_nbr6118_esboco.md`. Nao misturar codigo do XC (GPL) em codigo MIT.
 - **Autocad-Civil3d-Tools (shtirlitsDva, GPL-3.0):** ~440 comandos .NET para AutoCAD/Civil 3D 2025 (foco em aquecimento distrital dinamarques; partes genericas: perfis e vistas em lote, recobrimento, volumes de escavacao, folhas, lote). Clonado em `Ferramentas/Autocad-Civil3d-Tools` como referencia; nao compilado para 2027. Ver `references/autocad_civil3d_tools.md`.
+- **AutoLISP-3DTools (A. Burgueno Diaz, sem licenca: so uso local):** 8 rotinas LISP de modelagem 3D (QDZ discretizar eixos, STS superficies->solidos, SSC/SSB/SSH cortes e subtracoes em lote, ZFS varredura sem torcao, MPA, S3D). Clone em `Ferramentas/AutoLISP-3DTools`; ver `references/autolisp_3dtools.md` (carregamento e SECURELOAD).
 
 ## Entrega ao usuario
 Resumo curto + tabela de utilizacao (esforco / resistencia) + lista de premissas e itens nao verificados + caminho do `.sm` gerado.
